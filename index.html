@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YEF.DEV</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONTS AND ICONS -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c802362083.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ASIDE BAR -->
+    <aside class="sidebar">
+        <form class="sidebar__form">
+            <input type="checkbox" id="open-menu">
+            <label class="material-symbols-outlined" id="sidebar__close" for="open-menu" translate="no" aria-hidden="true">close</label>
+            <label for="open-menu" class="material-symbols-outlined open_button" translate="no" aria-hidden="true">menu</label>
+        </form>
+        <div class="sidebar__logo__container">
+            <div class="sidebar__logo">
+                <h2>yef.dev</h2>
+            </div>
+        </div>
+
+        <nav class="sidebar__nav" aria-label="Main navigation">
+            <input type="checkbox" id="toggle__settings" >
+            <ul>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined"  translate="no" aria-hidden="true">Home</span>
+                    <a href="#">home</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined" translate="no" aria-hidden="true">workspaces</span>
+                    <a href="#section-projects">projects</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined" translate="no" aria-hidden="true">user_attributes</span>
+                    <a href="#about-me">about me</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined" translate="no" aria-hidden="true">mail</span>
+                    <a href="#contact">contact</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined" translate="no" aria-hidden="true">person_play</span>
+                    <a href="#skills">skills</a>
+                </li>
+
+                <li class="sidebar__item" id="settings__button">
+
+                    <span class="material-symbols-outlined" translate="no" aria-hidden="true">settings</span>
+                    <a id="settings__link">settings</a>
+
+                    <div class="sidebar__config">
+                        <label for="toggle__darkmode" class="switch except__class" translate="no"  > 
+                            <p>Dark mode</p>
+                            <input type="checkbox" id="toggle__darkmode" /> 
+                            <span class="slider"></span>
+                        </label>
+                    </div>   
+                </li>                
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- HEADER -->
+    <div class="main__container">
+        <header class="header">
+            <main class="main">
+                <section class="main__section">
+                <div class="main__card">
+                    <picture class="maincard__picture">
+                    <img src="img/foto.jpg" alt="Foto de Yeferson Garcia" >
+                    </picture>
+
+                    <div class="maincard__content">
+                    <h1 class="maincard__name">Yeferson Garcia</h1>
+                    
+                    <nav class="maincard__nav">
+                        <ul>
+                        <li class="maincard__item">
+                            <a href="https://www.instagram.com/yeferson_garcia0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Yeferson Garcia">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="maincard__item">
+                            <a href="https://github.com/YefersonGarciaGiraldo" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Yeferson Garcia">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="maincard__item">
+                            <a href="mailto:yeff.dev@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar correo a Yeferson Garcia">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </nav>
+
+                    <h2 class="maincard__title">Web Developer <br> <span id="highlight__span">Design, coding, and automation.</span></h2>
+                    </div>
+                </div>
+                </section>
+                <div class="main__img__space img__space1" loading="lazy" ></div>
+                <!-- ABOUT ME SECTION -->
+                <section class="main__section main__about__me" id="about-me">
+                    <h2>about me</h2>
+                    <p> 
+                        Hi, I'm yef — a software developer focused on web development.
+                        I build websites that are responsive, accessible, and designed to work beautifully on any device.
+                        Clean, modern, and functional design is at the core of everything I create.
+                        Welcome to my homepage!
+                    </p>
+                </section>
+            </main>
+        </header>
+        <div class="img__space__container"><div class="main__img__space img__space2" loading="lazy"></div></div>
+        <!-- SECTION PROJECTS -->
+        <section class="section__projects" id="section-projects">
+            <h2>My projects</h2>
+            <!-- CARDS -->
+            <div class="section__projects__cards">
+
+                <div class="section__projects__item">
+                    <div class="sectionprojects__card__front">
+                        <h3>pagina web</h3>
+                        <p>html + css + java script</p>
+                    </div>
+                    <div class="sectionprojects__card__back projects__cardback__1" loading="lazy">
+                        <!-- CONTAINER FOR IMAGE -->
+                    </div>
+                </div>
+
+                <div class="section__projects__item">
+                    <div class="sectionprojects__card__front">
+                        <h3>pos de caja registradora</h3>
+                        <p>python + tkinter + sqlite -> .exe</p>
+                    </div>
+                    <div class="sectionprojects__card__back projects__cardback__2" loading="lazy">
+                        <!-- CONTAINER FOR IMAGE -->
+                    </div>
+                </div>
+
+                <div class="section__projects__item">
+                    <div class="sectionprojects__card__front">
+                        <h3>interfaz web</h3>
+                        <p>html + css</p>
+                    </div>
+                    <div class="sectionprojects__card__back projects__cardback__3" loading="lazy">
+                        <!-- CONTAINER FOR IMAGE -->
+                    </div>
+                </div>
+
+                <div class="section__projects__item">
+                    <div class="sectionprojects__card__front">
+                        <h3>calculadora basica de imc</h3>
+                        <p>python + tkinter</p>
+                    </div>
+                    <div class="sectionprojects__card__back projects__cardback__4" loading="lazy">
+                        <!-- CONTAINER FOR IMAGE -->
+                    </div>
+                </div>
+
+                <div class="section__projects__item">
+                    <div class="sectionprojects__card__front">
+                        <h3>pagina de presentacion</h3>
+                        <p>html + css + javascript</p>
+                    </div>
+                    <div class="sectionprojects__card__back projects__cardback__5" loading="lazy">
+                        <!-- CONTAINER FOR IMAGE -->
+                    </div>
+                </div>
+
+                <div class="section__projects__item section__projects__fill">
+                    <h3>Click on the card to turn it over!</h3>
+                </div>
+            </div>
+        </section>
+        <div class="img__space__container"><div class="main__img__space img__space3"></div></div>
+        <!-- SKILLS SECTION -->
+        <section class="section__skills" id="skills">
+            <h2>skills and languages</h2>
+            <!-- CHECK box -->
+            <input type="checkbox" id="open-skills">
+            <!-- SKILLS CARD -->
+            <label class="sectionskills__big__card" for="open-skills">
+                <!-- FRONT BIG CARD -->
+                <div class="sectionskills__card__front">
+                    <!-- FRONT CARDS -->
+                    <div class="sectionskills__item">
+                        <i class="fa-brands fa-python" aria-hidden="true"></i>
+                        <p>python</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                        <p>html</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-brands fa-css" aria-hidden="true"></i>
+                        <p>css</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-brands fa-js" aria-hidden="true"></i>
+                        <p>javascript</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-solid fa-database" aria-hidden="true"></i>
+                        <p>mysqlite</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-solid fa-feather" aria-hidden="true"></i>
+                        <p>tkinter</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i>
+                        <p>ui</p>
+                    </div>
+                    <div class="sectionskills__item">
+                        <i class="fa-solid fa-user" aria-hidden="true"></i>
+                        <p>ux</p>
+                    </div>
+
+                </div>
+                
+                <!-- REAR SECTION, SKILL BARS -->
+                <div class="sectionskills__card__back">
+
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>python</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>html</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>css</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>javascript</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>mysqlite</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>tkinter</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>ui</p></div></div>
+                    </div>
+                    <div class="sectionskills__bar__item">
+                        <div class="skill__bar"><div><p>ux</p></div></div>
+                    </div>
+                </div>
+            </label>
+        </section>
+        <div class="img__space__container"><div class="main__img__space img__space4" loading="lazy"></div></div>
+        <!-- ENVIRONMENTS SECTION -->
+        <section class="section__environments">
+            <h2>development environments</h2>
+            <div class="section__environments__cards">
+
+                <div class="sectionenvironments__item">
+                    <i class="fa-brands fa-windows" aria-hidden="true"></i>
+                    <p>windows</p>
+                </div>
+                <div class="sectionenvironments__item">
+                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                    <p>visual studio code</p>
+                </div>
+                <div class="sectionenvironments__item">
+                    <i class="fa-brands fa-git" aria-hidden="true"></i>
+                    <p>git</p>
+                </div>
+                <div class="sectionenvironments__item">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <p>git-hub</p>
+                </div>
+                <div class="sectionenvironments__item">
+                    <i class="fa-solid fa-database" aria-hidden="true"></i>
+                    <p>mysql-workbench</p>
+                </div>
+            </div>
+        </section>
+        <div class="img__space__container"><div class="main__img__space img__space5" loading="lazy"></div></div>
+        <!-- FORM CONTACT -->
+        <section class="section__contact" id="contact">
+            <div class="sectioncontact__container">
+                <form class="section__contact__form" action="https://formsubmit.co/yeff.dev@gmail.com" method="POST">
+                    <fieldset>
+                        <legend>Contact me</legend>
+                            <div class="form__input">
+                                <label for="name">Name
+                                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                                </label>
+                            </div>
+                            
+                            <div class="form__input">
+                                <label for="email">Email
+                                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                                </label>
+                            </div>
+                            
+                            <div class="form__input">
+                                <label for="message">Message
+                                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                                </label>
+                            </div>
+                            <input type="hidden" name="_captcha" value="false"> 
+                            <input type="hidden" name="_next" value=""> <!--insert link git hub-->
+                            
+                            <div class="form__input form__submit">
+                                <button type="submit">Send</button>
+                            </div>
+                    </fieldset>
+                </form>
+                <div class="img__section__contact">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <!-- FOOTER -->
+        <footer role="contentinfo" aria-label="Site footer">
+            <p>
+                Developed by <span lang="en" class="author">Yeferson Garcia</span> — 
+                <span aria-hidden="true">©</span> 
+                <span class="year">2025</span> All rights reserved.
+            </p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>
